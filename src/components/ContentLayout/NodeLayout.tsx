@@ -132,7 +132,7 @@ export default function NodeLayout(){
 
                     <CardInform>
                         <Image
-                            src='/imgs/Node-img.svg'
+                            src='/imgs/node-img.svg'
                             alt='Perfil' 
                             width='160' 
                             height='160'

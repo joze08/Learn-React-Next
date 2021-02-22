@@ -48,7 +48,7 @@ export default function HeaderComponentz(){
             </Cadastro>
             <Pesquisa>
             <Image
-             src="/Images/Lupa.png"
+             src="/Images/lupa.png"
              alt="xesque"
              width  = {20}
              height = {20}
