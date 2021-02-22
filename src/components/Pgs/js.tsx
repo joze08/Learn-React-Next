@@ -1,12 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import {useRouter} from 'next/router';
 import { HeaderComponentx,Logox, Menux, Tt,H, Kanto, Cadastro, Pesquisa,Titulo } from "../../styles/HeaderStyles"
 import {Body,Artigo,Modal,Fechar,Modal1,P1,DIV1,Span1,Pre1,Modal2,Artigo2} from "../../styles/JsStyles"
 
 
 export default function HeaderComponentz(){
-  const router = useRouter();
 
     return(
         <Body>
@@ -23,7 +21,7 @@ export default function HeaderComponentz(){
             <Menux>
              <H href="/">Inicio</H>
              <H href="react">react-native</H>
-             <H onClick={()=>{router.push("/Conteudos/JavaScript")}}>Forum</H>
+             <H href="Conteudos/JavaScript">Forum</H>
             </Menux>
             <Tt>
                 <Titulo>Learn React</Titulo>

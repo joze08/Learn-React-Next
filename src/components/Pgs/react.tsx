@@ -1,12 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import {useRouter} from 'next/router';
 import { HeaderComponentx,Logox, Menux, Tt,H, Kanto, Cadastro, Pesquisa,Titulo } from "../../styles/HeaderStyles"
 import { Fechar } from '../../styles/JsStyles';
 import { Modal1, Modal2,Modal,Artigo2,Artigo,Body,TokenFunction,TokenPunctuation,TokenString,TokenTag,GatsbyHighlight,LI,SPAN, Code,Pre} from "../../styles/reactStyles"
 export default function HeaderComponent(){
-
-  const router = useRouter();
     return(
         <Body>       
              <HeaderComponentx>
@@ -22,7 +19,7 @@ export default function HeaderComponent(){
             <Menux>
              <H href="/">Inicio</H>
              <H href="JS">Javascript</H>
-             <H onClick={()=>{router.push("/Conteudos/JavaScript")}}>Forum</H>
+             <H href="Conteudos/JavaScript">Forum</H>
             </Menux>
             <Tt>
                 <Titulo>Learn React</Titulo>
