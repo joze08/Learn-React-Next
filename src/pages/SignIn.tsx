@@ -5,7 +5,7 @@ export default function SignIn(){
     return(
         <>
            <Header/>
-          {/*  <Section/> */}
+           <Section/>
         </>
     )
 }
